@@ -1,0 +1,59 @@
+.box{
+	background-color: black;
+	line-height: 1.6;
+	padding: 20px 15px 20px 15px;
+	height: 300px;
+	border: 3.5px solid #0dbab1;
+	border-radius: 4px;
+	margin: 20px 10px 0px 20px;
+	font-size: 17px;
+	color: #0dbab1;
+	list-style-type: none;
+}
+.title{
+	font-size: 22px;
+}
+a:link{
+	color:white;
+	text-decoration: none;
+}
+a:visited{
+	color:white;	
+	text-decoration: none;
+}
+div#output1{
+	animation-name: p-fadein;
+	animation-duration: 3s; 
+	animation-timing-function: ease-out;
+}
+div#output2{
+	animation-name: p-fadein;
+	animation-duration: 3s; 
+	animation-timing-function: ease-out;
+}
+@keyframes p-fadein{
+	from{margin-top:550px; opacity: 0.4;}
+	to{margin-top: 0px; opacity: 1;}
+}
+.inputClass{
+	width: 30%;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 25px;
+	/*margin-left: 560px;*/
+}
+.custom-butt{
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: black;
+	border: 3.5px solid #0dbab1;
+	border-radius: 2px;
+	color: #0dbab1;
+}
+.container{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
