@@ -9,6 +9,7 @@ function search(){
 	container.setAttribute("style","display:block");
 	var valueS = document.getElementById('text').value;
 	var search = searchUrl+valueS + callback;
+	
 	//console.log(search);
 	$.getJSON(search,list_has_arrived);
 }
